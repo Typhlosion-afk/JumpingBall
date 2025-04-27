@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.jumpingball"
-    compileSdk = 34
+    namespace = "eki.dore.flabbygame"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.jumpingball"
+        applicationId = "eki.dore.flabbygame"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 

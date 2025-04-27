@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FlabbyGame"
-        tools:targetApi="31">
+        tools:targetApi="35">
         <activity
             android:name=".ui.screen.start.StartActivity"
             android:exported="true"
@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.screen.main.MainActivity"
+            android:name="eki.dore.flabbygame.ui.screen.main.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="DiscouragedApi,LockedOrientationActivity">

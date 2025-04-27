@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     android:background="@color/background"
     android:id="@+id/main"
-    tools:context=".ui.screen.main.MainActivity">
+    tools:context="eki.dore.flabbygame.ui.screen.main.MainActivity">
 
-    <com.example.jumpingball.customview.GameSurfaceView
+    <eki.dore.flabbygame.customview.GameSurfaceView
         android:id="@+id/game_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
